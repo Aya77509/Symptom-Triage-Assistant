@@ -2,7 +2,9 @@
 
 **⚠️ Educational prototype only. Not a validated medical device or diagnostic
 tool. Do not use for real medical decisions.**
-
+<p align="center">
+  <img src="data/ui.png" width="700" alt="Symptom Triage Assistant UI">
+</p>
 ## What this is
 
 A small demo of a **neurosymbolic** pattern applied to a medical use case:
