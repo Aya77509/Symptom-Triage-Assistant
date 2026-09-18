@@ -1,0 +1,237 @@
+[
+  {
+    "id": "TC01",
+    "text": "I'm 55 and I've had crushing chest pain for the last hour.",
+    "expected_level": "EMERGENCY",
+    "hybrid_level": "EMERGENCY",
+    "hybrid_rule": "R05_chest_pain",
+    "baseline_level": "EMERGENCY",
+    "hybrid_correct": true,
+    "baseline_correct": true,
+    "agree": true,
+    "seconds": 26.6
+  },
+  {
+    "id": "TC02",
+    "text": "I'm 25 and I have some chest pain since this morning, no other symptoms.",
+    "expected_level": "EMERGENCY",
+    "hybrid_level": "EMERGENCY",
+    "hybrid_rule": "R05_chest_pain",
+    "baseline_level": "URGENT",
+    "hybrid_correct": true,
+    "baseline_correct": false,
+    "agree": false,
+    "seconds": 22.8
+  },
+  {
+    "id": "TC03",
+    "text": "I just checked my pulse oximeter and it reads 88%. I don't feel too different otherwise.",
+    "expected_level": "EMERGENCY",
+    "hybrid_level": "EMERGENCY",
+    "hybrid_rule": "R07_severe_breathing_trouble",
+    "baseline_level": "SELF_CARE",
+    "hybrid_correct": true,
+    "baseline_correct": false,
+    "agree": false,
+    "seconds": 23.7
+  },
+  {
+    "id": "TC04",
+    "text": "My face is drooping on one side and my speech is slurred since 10 minutes ago.",
+    "expected_level": "EMERGENCY",
+    "hybrid_level": "EMERGENCY",
+    "hybrid_rule": "R01_stroke_signs",
+    "baseline_level": "EMERGENCY",
+    "hybrid_correct": true,
+    "baseline_correct": true,
+    "agree": true,
+    "seconds": 28.0
+  },
+  {
+    "id": "TC05",
+    "text": "I've been coughing up blood for the past day.",
+    "expected_level": "EMERGENCY",
+    "hybrid_level": "EMERGENCY",
+    "hybrid_rule": "R09_coughing_blood",
+    "baseline_level": "EMERGENCY",
+    "hybrid_correct": true,
+    "baseline_correct": true,
+    "agree": true,
+    "seconds": 25.1
+  },
+  {
+    "id": "TC06",
+    "text": "I fell down the stairs and hit my head hard, it's a severe head injury.",
+    "expected_level": "EMERGENCY",
+    "hybrid_level": "EMERGENCY",
+    "hybrid_rule": "R02_consciousness_seizure",
+    "baseline_level": "EMERGENCY",
+    "hybrid_correct": true,
+    "baseline_correct": true,
+    "agree": true,
+    "seconds": 24.5
+  },
+  {
+    "id": "TC07",
+    "text": "I got stung by a bee, my throat is swelling up and I can't breathe well.",
+    "expected_level": "EMERGENCY",
+    "hybrid_level": "EMERGENCY",
+    "hybrid_rule": "R01_stroke_signs",
+    "baseline_level": "EMERGENCY",
+    "hybrid_correct": true,
+    "baseline_correct": true,
+    "agree": true,
+    "seconds": 31.6
+  },
+  {
+    "id": "TC08",
+    "text": "I'm 70 years old and I have a very high fever since last night.",
+    "expected_level": "URGENT",
+    "hybrid_level": "EMERGENCY",
+    "hybrid_rule": "R02_consciousness_seizure",
+    "baseline_level": "EMERGENCY",
+    "hybrid_correct": false,
+    "baseline_correct": false,
+    "agree": true,
+    "seconds": 27.6
+  },
+  {
+    "id": "TC09",
+    "text": "I have a high fever and I feel very confused, not making sense when I talk.",
+    "expected_level": "EMERGENCY",
+    "hybrid_level": "EMERGENCY",
+    "hybrid_rule": "R11_fever_with_confusion",
+    "baseline_level": "EMERGENCY",
+    "hybrid_correct": true,
+    "baseline_correct": true,
+    "agree": true,
+    "seconds": 27.1
+  },
+  {
+    "id": "TC10",
+    "text": "I have severe abdominal pain that won't go away, started 3 hours ago.",
+    "expected_level": "URGENT",
+    "hybrid_level": "URGENT",
+    "hybrid_rule": "R15_severe_abdominal_pain",
+    "baseline_level": "EMERGENCY",
+    "hybrid_correct": true,
+    "baseline_correct": false,
+    "agree": false,
+    "seconds": 27.9
+  },
+  {
+    "id": "TC11",
+    "text": "I've been vomiting repeatedly for about a day and a half now.",
+    "expected_level": "URGENT",
+    "hybrid_level": "URGENT",
+    "hybrid_rule": "R15_severe_abdominal_pain",
+    "baseline_level": "URGENT",
+    "hybrid_correct": true,
+    "baseline_correct": true,
+    "agree": true,
+    "seconds": 28.0
+  },
+  {
+    "id": "TC12",
+    "text": "I just took my temperature and it's 40.2 degrees Celsius.",
+    "expected_level": "URGENT",
+    "hybrid_level": "URGENT",
+    "hybrid_rule": "R13_high_measured_fever",
+    "baseline_level": "EMERGENCY",
+    "hybrid_correct": true,
+    "baseline_correct": false,
+    "agree": false,
+    "seconds": 23.8
+  },
+  {
+    "id": "TC13",
+    "text": "I feel very dizzy and I'm in severe pain in my side.",
+    "expected_level": "URGENT",
+    "hybrid_level": "URGENT",
+    "hybrid_rule": "R17_dizzy_with_severe_pain",
+    "baseline_level": "EMERGENCY",
+    "hybrid_correct": true,
+    "baseline_correct": false,
+    "agree": false,
+    "seconds": 27.4
+  },
+  {
+    "id": "TC14",
+    "text": "I have some moderate pain in my lower back since yesterday.",
+    "expected_level": "ROUTINE",
+    "hybrid_level": "ROUTINE",
+    "hybrid_rule": "R18_moderate_or_unmeasured_fever",
+    "baseline_level": "ROUTINE",
+    "hybrid_correct": true,
+    "baseline_correct": true,
+    "agree": true,
+    "seconds": 21.3
+  },
+  {
+    "id": "TC15",
+    "text": "I'm 30 and I think I have a high fever since this morning, haven't measured it.",
+    "expected_level": "ROUTINE",
+    "hybrid_level": "ROUTINE",
+    "hybrid_rule": "R18_moderate_or_unmeasured_fever",
+    "baseline_level": "SELF_CARE",
+    "hybrid_correct": true,
+    "baseline_correct": false,
+    "agree": false,
+    "seconds": 24.6
+  },
+  {
+    "id": "TC16",
+    "text": "I have a sore throat and a mild cough for the past two days.",
+    "expected_level": "ROUTINE",
+    "hybrid_level": "ROUTINE",
+    "hybrid_rule": "R19_common_illness",
+    "baseline_level": "SELF_CARE",
+    "hybrid_correct": true,
+    "baseline_correct": false,
+    "agree": false,
+    "seconds": 25.2
+  },
+  {
+    "id": "TC17",
+    "text": "I just have a runny nose today, nothing else going on.",
+    "expected_level": "SELF_CARE",
+    "hybrid_level": "SELF_CARE",
+    "hybrid_rule": "R20_default_self_care",
+    "baseline_level": "SELF_CARE",
+    "hybrid_correct": true,
+    "baseline_correct": true,
+    "agree": true,
+    "seconds": 22.9
+  },
+  {
+    "id": "TC18",
+    "text": "I have mild pain in my ankle after a short walk this morning.",
+    "expected_level": "SELF_CARE",
+    "hybrid_level": "EMERGENCY",
+    "hybrid_rule": "R02_consciousness_seizure",
+    "baseline_level": "SELF_CARE",
+    "hybrid_correct": false,
+    "baseline_correct": true,
+    "agree": false,
+    "seconds": 41.1
+  }
+]
+
+"""
+============================================================
+SUMMARY
+============================================================
+Test cases:                18
+Hybrid accuracy:           89%
+Raw-LLM baseline accuracy: 56%
+Agreement rate:            56%
+
+DISAGREEMENTS (8) - these are your best writeup examples:
+  TC02: expected=EMERGENCY hybrid=EMERGENCY baseline=URGENT  <-- hybrid caught what baseline missed
+  TC03: expected=EMERGENCY hybrid=EMERGENCY baseline=SELF_CARE  <-- hybrid caught what baseline missed
+  TC10: expected=URGENT hybrid=URGENT baseline=EMERGENCY  <-- hybrid caught what baseline missed
+  TC12: expected=URGENT hybrid=URGENT baseline=EMERGENCY  <-- hybrid caught what baseline missed
+  TC13: expected=URGENT hybrid=URGENT baseline=EMERGENCY  <-- hybrid caught what baseline missed
+  TC15: expected=ROUTINE hybrid=ROUTINE baseline=SELF_CARE  <-- hybrid caught what baseline missed
+  TC16: expected=ROUTINE hybrid=ROUTINE baseline=SELF_CARE  <-- hybrid caught what baseline missed
+  TC18: expected=SELF_CARE hybrid=EMERGENCY baseline=SELF_CARE  <-- baseline was right, hybrid/rules need work"""
